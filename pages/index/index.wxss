@@ -1,4 +1,28 @@
 /**index.wxss**/
-.row {
-    margin-top: 30rpx;
+.article-box{
+  width: 710rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+.index-img-box {
+  display: inline-block;
+  width: 200rpx;
+  height: 100%;
+  float: left;
+}
+.index-img-box image{
+  width: 100%;
+  height: 100%;
+}
+.desc-box{
+  display: inline-block;
+  float: left;
+  width: 450rpx;
+  margin-left: 20rpx;
+  color: #409EFF;
+}
+.desc-content{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
